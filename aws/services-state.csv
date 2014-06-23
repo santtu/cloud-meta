@@ -1,0 +1,82 @@
+date,service,limited,beta,ga,accurate,description
+2004-10-04,alexa,0,0,1,1,"Announcement http://aws.amazon.com/about-aws/whats-new/2004/10/04/introducing-the-alexa-web-information-service/ doesn't state beta, and earliest product page accessible https://web.archive.org/web/20060223102040/http://www.amazon.com/gp/browse.html?node=12782661 also doesn't state beta (GA). Since no contradictory information, assume GA on release."
+2004-11-03,sqs,0,1,0,1,http://aws.amazon.com/about-aws/whats-new/2004/11/03/introducing-the-amazon-simple-queue-service/
+2005-11-02,mturk,0,1,0,1,"http://aws.amazon.com/about-aws/whats-new/2005/11/02/announcing-amazon-mechanical-turk/
+https://web.archive.org/web/20061130060735/http://www.amazon.com/Mechanical-Turk-AWS-home-page/b?ie=UTF8&node=15879911"
+2006-03-13,s3,0,0,1,1,"http://aws.amazon.com/about-aws/whats-new/2006/03/13/announcing-amazon-s3---simple-storage-service/
+https://web.archive.org/web/20061124021750/http://www.amazon.com/S3-AWS-home-page-Money/b?ie=UTF8&node=16427261"
+2006-07-11,sqs,0,0,1,1,http://aws.amazon.com/about-aws/whats-new/2006/07/11/amazon-simple-queue-service-amazon-sqs-now-generally-available/
+2006-08-24,ec2,0,1,0,1,http://aws.amazon.com/about-aws/whats-new/2006/08/24/announcing-amazon-elastic-compute-cloud-amazon-ec2---beta/
+2007-08-02,fps,1,0,0,1,http://aws.amazon.com/about-aws/whats-new/2007/08/02/amazon-flexible-payments-service-amazon-fps---limited-beta/
+2007-12-13,simpledb,1,0,0,1,"http://aws.amazon.com/about-aws/whats-new/2007/12/13/announcing-amazon-simpledb-limited-beta
+https://web.archive.org/web/20071216150414/http://www.amazon.com/b?ie=UTF8&node=393699011&me=A36L942TSJ2AJA#sdb10"
+2008-03-27,ec2,0,0,1,1,http://aws.amazon.com/about-aws/whats-new/2008/03/26/announcing-elastic-ip-addresses-and-availability-zones-for-amazon-ec2/ 
+2008-08-20,ebs,0,0,1,1,"http://aws.amazon.com/about-aws/whats-new/2008/08/20/amazon-elastic-block-store-now-available/
+https://web.archive.org/web/20081004222031/http://aws.amazon.com/ebs/ shows no beta, so assume ga at this time"
+2008-08-20,ebs,0,0,1,1,"http://aws.amazon.com/about-aws/whats-new/2008/08/20/amazon-elastic-block-store-now-available/ and https://web.archive.org/web/20081004222031/http://aws.amazon.com/ebs/ shows no beta, ec2 GA also shortly."
+2008-11-18,cloudfront,0,1,0,1,"http://aws.amazon.com/about-aws/whats-new/2008/11/18/whats-new-cloudfront/
+https://web.archive.org/web/20081201070709/http://aws.amazon.com/cloudfront/ (2008-12-01) lists it as beta, 2010-11-09 announced as ga, so this is beta."
+2008-12-01,simpledb,0,1,0,1,http://aws.amazon.com/about-aws/whats-new/2008/12/01/amazon-simpledb-now-in-unlimited-beta/ 
+2009-01-08,management-console,0,1,0,1,http://aws.amazon.com/about-aws/whats-new/2009/01/08/announcing-the-aws-management-console/ 
+2009-02-05,fps,0,0,1,1,http://aws.amazon.com/about-aws/whats-new/2009/02/05/amazon-fps-exits-beta-and-announces-limited-time-free-payment-processing/ 
+2009-04-02,emr,0,1,0,1,"http://aws.amazon.com/about-aws/whats-new/2009/04/02/announcing-amazon-elastic-mapreduce/
+https://web.archive.org/web/20090403074643/http://aws.amazon.com/elasticmapreduce/"
+2009-04-17,cloudwatch,0,0,1,1,"http://aws.amazon.com/about-aws/whats-new/2009/04/15/amazon-ec2-reserved-instances-now-available-in-europe/
+https://web.archive.org/web/20090520151437/http://aws.amazon.com/cloudwatch/"
+2009-05-17,elb,0,0,1,1,http://aws.amazon.com/about-aws/whats-new/2009/05/17/monitoring-auto-scaling-elastic-load-balancing/
+2009-05-17,autoscaling,0,1,0,1,http://aws.amazon.com/about-aws/whats-new/2009/05/17/monitoring-auto-scaling-elastic-load-balancing/ 
+2009-05-20,import-export,1,0,0,1,"http://aws.amazon.com/about-aws/whats-new/2009/05/20/AWS-Import-Export/
+https://web.archive.org/web/20090523210131/http://aws.amazon.com/importexport"
+2009-07-07,management-console,0,0,1,0,Announcement clearly states management-console is in beta (http://aws.amazon.com/about-aws/whats-new/2009/01/08/announcing-the-aws-management-console/) but there is no announcement of it going GA. 2009-07-07 is already GA (https://web.archive.org/web/20090707115644/http://aws.amazon.com/console).
+2009-08-13,import-export,0,1,0,1,"http://aws.amazon.com/about-aws/whats-new/2009/08/13/AWS-Import-Export-Unlimited-Beta/
+"
+2009-08-26,vpc,1,0,0,1,"http://aws.amazon.com/about-aws/whats-new/2009/08/26/introducing-amazon-virtual-private-cloud/
+https://web.archive.org/web/20090828045347/http://aws.amazon.com/vpc/ from 2009-08-28 mentions limited beta."
+2009-10-22,autoscaling,0,0,1,0,"No separate announcement, is in beta 2009-09-07 (https://web.archive.org/web/20090907172843/http://aws.amazon.com/autoscaling/)  and GA 2009-10-22 (https://web.archive.org/web/20091022191748/http://aws.amazon.com/autoscaling/)."
+2009-10-27,rds,0,1,0,1,http://aws.amazon.com/about-aws/whats-new/2009/10/27/introducing-amazon-relational-database-service/
+2009-12-08,emr,0,0,1,0,No known announcements. 2009-10-08 is in beta (https://web.archive.org/web/20091008130229/http://aws.amazon.com/elasticmapreduce/) and 2009-12-08 is GA (https://web.archive.org/web/20091208104334/http://aws.amazon.com/elasticmapreduce/)
+2009-12-14,vpc,0,1,0,1,http://aws.amazon.com/about-aws/whats-new/2009/12/14/amazon-virtual-private-cloud-enters-unlimited-beta/
+2010-04-07,sns,0,1,0,1,http://aws.amazon.com/about-aws/whats-new/2010/04/07/announcing-amazon-simple-notification-service/
+2010-06-10,import-export,0,0,1,1,http://aws.amazon.com/about-aws/whats-new/2010/06/10/aws-importexport-exits-beta-and-announces-web-service-support/
+2010-09-02,iam,0,1,0,1,http://aws.amazon.com/about-aws/whats-new/2010/09/02/announcing-aws-identity-and-access-management-iam-preview-beta/
+2010-11-09,cloudfront,0,0,1,1,http://aws.amazon.com/about-aws/whats-new/2010/11/09/cloudfront-adds-support-for-custom-origins-and-sla/
+2010-12-06,route53,0,0,1,1,http://aws.amazon.com/about-aws/whats-new/2010/12/06/announcing-amazon-route-53-dns-service/
+2011-01-19,elasticbeanstalk,0,1,0,1,http://aws.amazon.com/about-aws/whats-new/2011/01/19/introducing-aws-elastic-beanstalk-beta/
+2011-01-25,ses,0,1,0,1,"http://aws.amazon.com/about-aws/whats-new/2011/01/25/introducing-amazon-simple-email-service-beta/
+Note that although SES has multiple endpoints (see http://docs.aws.amazon.com/general/latest/gr/rande.html#ses_region) it is not region-bound in the same sense as instance-based services, thus it is listed as non-region-bound service here."
+2011-02-25,cloudformation,0,0,1,1,http://aws.amazon.com/about-aws/whats-new/2011/02/25/introducing-aws-cloudformation/
+2011-05-03,iam,0,0,1,1,http://aws.amazon.com/about-aws/whats-new/2011/05/03/announcing-IAM/
+2011-08-03,vpc,0,0,1,1,http://aws.amazon.com/about-aws/whats-new/2011/08/03/Announcing-VPC-GA/
+2011-08-22,elasticache,0,1,0,1,http://aws.amazon.com/about-aws/whats-new/2011/08/22/announcing-amazon-elasticache/
+2011-09-08,directconnect,0,0,1,1,http://aws.amazon.com/about-aws/whats-new/2011/08/03/Announcing-AWS-Direct-Connect/ 
+2012-01-18,dynamodb,0,1,0,1,"http://aws.amazon.com/about-aws/whats-new/2012/01/18/aws-announces-dynamodb/
+https://web.archive.org/web/20120121062438/http://aws.amazon.com/DynamoDB/ (2012-01-21) shows it is beta."
+2012-01-24,storagegateway,0,1,0,1,"http://aws.amazon.com/about-aws/whats-new/2012/01/24/announcing-aws-storage-gateway/
+https://web.archive.org/web/20120126091431/http://aws.amazon.com/storagegateway/  (from 2012-01-26) shows it as beta."
+2012-02-21,swf,0,1,0,1,"http://aws.amazon.com/about-aws/whats-new/2012/02/21/aws-announces-swf/
+https://web.archive.org/web/20120226035310/http://aws.amazon.com/swf/  (from 2012-02-26) shows it as beta."
+2012-04-11,cloudsearch,0,1,0,1,"http://aws.amazon.com/about-aws/whats-new/2012/04/11/aws-announces-cloudsearch/
+https://web.archive.org/web/20120415151803/http://aws.amazon.com/cloudsearch/ shows it as beta."
+2012-08-20,glacier,0,0,1,1,"http://aws.amazon.com/about-aws/whats-new/2012/08/20/announcing-amazon-glacier/
+https://web.archive.org/web/20120824133701/http://aws.amazon.com/glacier/? has no beta marked (from 2012-08-24) so assuming GA."
+2012-10-29,storagegateway,0,0,1,1,http://aws.amazon.com/about-aws/whats-new/2012/10/29/aws-storage-gateway-announces-gateway-cached-volumes/
+2012-11-28,redshift,1,0,0,1,http://aws.amazon.com/about-aws/whats-new/2012/11/28/announcing-amazon-redshift/
+2012-12-20,datapipeline,0,1,0,1,http://aws.amazon.com/about-aws/whats-new/2012/12/20/announcing-aws-data-pipeline/
+2012-12-30,datapipeline,0,0,1,0,"No known announcement of GA, service announced as beta 2012-12-20 but already on 2012-12-30 shows no beta (https://web.archive.org/web/20121230183006/http://aws.amazon.com/datapipeline)"
+2013-01-28,elastictranscoder,0,1,0,1,"http://aws.amazon.com/about-aws/whats-new/2013/01/28/announcing-amazon-elastic-transcoder/
+https://web.archive.org/web/20130205001127/http://aws.amazon.com/elastictranscoder/  shows it as beta."
+2013-02-14,redshift,0,0,1,1,http://aws.amazon.com/about-aws/whats-new/2013/02/14/amazon-redshift-available-to-all-customers/
+2013-02-18,opsworks,0,1,0,1,"http://aws.amazon.com/about-aws/whats-new/2013/02/18/announcing-aws-opsworks/
+https://web.archive.org/web/20130221044350/http://aws.amazon.com/opsworks shows as beta."
+2013-03-26,cloudhsm,0,0,1,1,"http://aws.amazon.com/about-aws/whats-new/2013/03/26/announcing-aws-cloudhsm/
+https://web.archive.org/web/20130401055055/http://aws.amazon.com/cloudhsm/  (2013-04-01) has no mention of beta, so assuming GA from start."
+2013-06-05,rds,0,0,1,1,http://aws.amazon.com/about-aws/whats-new/2013/06/05/amazon-rds-ga-sla/
+2013-10-31,dynamodb,0,0,1,0,No known announcement. 2013-10-24 is beta (https://web.archive.org/web/20131024024350/https://aws.amazon.com/dynamodb/)  and on 2013-10-31 is GA (https://web.archive.org/web/20131031051123/http://aws.amazon.com/dynamodb/)
+2013-11-13,appstream,1,0,0,1,http://aws.amazon.com/about-aws/whats-new/2013/11/13/introducing-amazon-appstream/
+2013-11-13,workspaces,1,0,0,1,http://aws.amazon.com/about-aws/whats-new/2013/11/13/introducing-amazon-workspaces/
+2013-11-13,kinesis,1,0,0,1,http://aws.amazon.com/about-aws/whats-new/2013/11/14/introducing-amazon-kinesis/
+2013-11-13,cloudtrail,0,1,0,1,http://aws.amazon.com/about-aws/whats-new/2013/11/13/announcing-aws-cloudtrail/
+2013-12-13,swf,0,0,1,0,No known announcement. 2012-12-06 is in beta (https://web.archive.org/web/20131206041030/https://aws.amazon.com/swf/) and on 2012-12-13 in GA (https://web.archive.org/web/20131213062247/http://aws.amazon.com/swf/)
+2013-12-16,kinesis,0,0,1,1,http://aws.amazon.com/about-aws/whats-new/2013/12/16/amazon-kinesis-available-for-all-customers/
+2014-03-12,appstream,0,0,1,1,http://aws.amazon.com/about-aws/whats-new/2014/03/12/amazon-appstream-available-to-all-customers/
+2014-03-26,workspaces,0,0,1,1,http://aws.amazon.com/about-aws/whats-new/2014/03/26/amazon-workspaces-available-for-all-customers/

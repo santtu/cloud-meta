@@ -1,0 +1,294 @@
+date,service,region,accurate,description
+2004-11-03,sqs,us-east-1,1,http://aws.amazon.com/about-aws/whats-new/2004/11/03/introducing-the-amazon-simple-queue-service/ 
+2006-03-13,s3,us-east-1,1,"http://aws.amazon.com/about-aws/whats-new/2006/03/13/announcing-amazon-s3---simple-storage-service/
+https://web.archive.org/web/20061124021750/http://www.amazon.com/S3-AWS-home-page-Money/b?ie=UTF8&node=16427261"
+2006-08-24,ec2,us-east-1,1,http://aws.amazon.com/about-aws/whats-new/2006/08/24/announcing-amazon-elastic-compute-cloud-amazon-ec2---beta/
+2007-11-06,s3,eu-west-1,1,http://aws.amazon.com/about-aws/whats-new/2007/11/06/amazon-s3-now-available-in-europe/
+2007-12-13,simpledb,us-east-1,1,"http://aws.amazon.com/about-aws/whats-new/2007/12/13/announcing-amazon-simpledb-limited-beta
+https://web.archive.org/web/20071216150414/http://www.amazon.com/b?ie=UTF8&node=393699011&me=A36L942TSJ2AJA#sdb10"
+2008-08-20,ebs,us-east-1,1,"http://aws.amazon.com/about-aws/whats-new/2008/08/20/amazon-elastic-block-store-now-available/
+https://web.archive.org/web/20081004222031/http://aws.amazon.com/ebs/ shows no beta, so assume ga at this time"
+2008-12-10,ec2,eu-west-1,1,http://aws.amazon.com/about-aws/whats-new/2008/12/10/amazon-ec2-crosses-the-atlantic/
+2008-12-10,ebs,eu-west-1,1,"https://forums.aws.amazon.com/ann.jspa?annID=379 although that's dated day before, but officially eu-west-1 announced 2008-12-10 so use that instead (assume forum post premature or timestamping issues)."
+2009-04-02,emr,us-east-1,1,"http://aws.amazon.com/about-aws/whats-new/2009/04/02/announcing-amazon-elastic-mapreduce/
+https://web.archive.org/web/20090403074643/http://aws.amazon.com/elasticmapreduce/"
+2009-04-09,sqs,eu-west-1,1,http://aws.amazon.com/about-aws/whats-new/2009/04/09/announcing-amazon-sqs-wsdl-version-2009-02-01-and-amazon-sqs-in-europe/
+2009-04-17,cloudwatch,us-east-1,1,"http://aws.amazon.com/about-aws/whats-new/2009/04/15/amazon-ec2-reserved-instances-now-available-in-europe/
+https://web.archive.org/web/20090520151437/http://aws.amazon.com/cloudwatch/"
+2009-05-07,autoscaling,us-east-1,1,http://aws.amazon.com/about-aws/whats-new/2009/05/17/monitoring-auto-scaling-elastic-load-balancing/ 
+2009-05-17,elb,us-east-1,1,http://aws.amazon.com/about-aws/whats-new/2009/05/17/monitoring-auto-scaling-elastic-load-balancing/
+2009-05-20,import-export,us-east-1,1,"http://aws.amazon.com/about-aws/whats-new/2009/05/20/AWS-Import-Export/
+https://web.archive.org/web/20090523210131/http://aws.amazon.com/importexport"
+2009-07-08,emr,eu-west-1,1,http://aws.amazon.com/about-aws/whats-new/2009/07/08/amazon-elastic-mapreduce-now-available-in-the-eu-region/
+2009-08-26,vpc,us-east-1,1,"http://aws.amazon.com/about-aws/whats-new/2009/08/26/introducing-amazon-virtual-private-cloud/
+https://web.archive.org/web/20090828045347/http://aws.amazon.com/vpc/ from 2009-08-28 mentions limited beta, but does not discuss about region limitations, but http://aws.amazon.com/about-aws/whats-new/2010/05/04/announcing-amazon-vpc-in-the-eu-region/ specifically mentions availability in eu-west-1 so assuming us-east-1 only at this point."
+2009-09-22,simpledb,eu-west-1,1,http://aws.amazon.com/about-aws/whats-new/2009/09/22/announcing-amazon-simpledb-in-the-eu-region/
+2009-09-22,cloudwatch,eu-west-1,1,http://aws.amazon.com/about-aws/whats-new/2009/09/22/monitoring-auto-scaling-and-elastic-load-balancing-for-amazon-ec2-now-available-in-the-eu-region/
+2009-09-22,elb,eu-west-1,1,http://aws.amazon.com/about-aws/whats-new/2009/09/22/monitoring-auto-scaling-and-elastic-load-balancing-for-amazon-ec2-now-available-in-the-eu-region/
+2009-09-22,autoscaling,eu-west-1,1,http://aws.amazon.com/about-aws/whats-new/2009/09/22/monitoring-auto-scaling-and-elastic-load-balancing-for-amazon-ec2-now-available-in-the-eu-region/ 
+2009-10-27,rds,us-east-1,1,"http://aws.amazon.com/about-aws/whats-new/2009/10/27/introducing-amazon-relational-database-service/
+https://web.archive.org/web/20091223034156/http://aws.amazon.com/rds/ shows only us-east-1."
+2009-12-03,ec2,us-west-1,1,http://aws.amazon.com/about-aws/whats-new/2009/12/03/aws-launches-the-northern-california-region/
+2009-12-03,s3,us-west-1,1,http://aws.amazon.com/about-aws/whats-new/2009/12/03/aws-launches-the-northern-california-region/
+2009-12-03,simpledb,us-west-1,1,http://aws.amazon.com/about-aws/whats-new/2009/12/03/aws-launches-the-northern-california-region/
+2009-12-03,sqs,us-west-1,1,http://aws.amazon.com/about-aws/whats-new/2009/12/03/aws-launches-the-northern-california-region/
+2009-12-03,emr,us-west-1,1,http://aws.amazon.com/about-aws/whats-new/2009/12/03/aws-launches-the-northern-california-region/
+2009-12-03,cloudwatch,us-west-1,0,"http://aws.amazon.com/about-aws/whats-new/2009/12/03/aws-launches-the-northern-california-region/ does not talk about ELB or cloudwatch. Neither does product page from that time (https://web.archive.org/web/20091214073733/http://aws.amazon.com/ec2/https://web.archive.org/web/20100129181926/http://aws.amazon.com/elasticloadbalancing) or), ELB page (https://web.archive.org/web/20100129181926/http://aws.amazon.com/elasticloadbalancing) or cloudwatch page (https://web.archive.org/web/20100221113631/http://aws.amazon.com/cloudwatch/). The first global infrastructure data (2011-11-12) already shows ELB and cloudwatch in us-west-1. Assuming these were available from launch, but cannot be positively sure."
+2009-12-03,elb,us-west-1,0,"http://aws.amazon.com/about-aws/whats-new/2009/12/03/aws-launches-the-northern-california-region/ does not talk about ELB or cloudwatch. Neither does product page from that time (https://web.archive.org/web/20091214073733/http://aws.amazon.com/ec2/https://web.archive.org/web/20100129181926/http://aws.amazon.com/elasticloadbalancing) or), ELB page (https://web.archive.org/web/20100129181926/http://aws.amazon.com/elasticloadbalancing) or cloudwatch page (https://web.archive.org/web/20100221113631/http://aws.amazon.com/cloudwatch/). The first global infrastructure data (2011-11-12) already shows ELB and cloudwatch in us-west-1. Assuming these were available from launch, but cannot be positively sure."
+2009-12-03,ebs,us-west-1,1,https://forums.aws.amazon.com/ann.jspa?annID=537
+2009-12-03,autoscaling,us-west-1,0,"Can't find any reference to auto scaling in us-west-1, but it appears more or less standard from eu-west-1 introduction and no separate announcements are found for a In other region announcemnets auto scaling is mostly mentioned ny other regions."
+2009-12-09,import-export,eu-west-1,1,http://aws.amazon.com/about-aws/whats-new/2009/12/09/aws-importexport-announces-international-support/ 
+2010-04-07,sns,eu-west-1,1,"http://aws.amazon.com/about-aws/whats-new/2010/04/07/announcing-amazon-simple-notification-service/
+https://web.archive.org/web/20100409151953/http://aws.amazon.com/sns/ mentions data transfer between regions, so taken to imply support for all (current) regions (2010-04-09)"
+2010-04-07,sns,us-east-1,1,"http://aws.amazon.com/about-aws/whats-new/2010/04/07/announcing-amazon-simple-notification-service/
+https://web.archive.org/web/20100409151953/http://aws.amazon.com/sns/ mentions data transfer between regions, so taken to imply support for all (current) regions (2010-04-09)"
+2010-04-07,sns,us-west-1,1,"http://aws.amazon.com/about-aws/whats-new/2010/04/07/announcing-amazon-simple-notification-service/
+https://web.archive.org/web/20100409151953/http://aws.amazon.com/sns/ mentions data transfer between regions, so taken to imply support for all (current) regions (2010-04-09)"
+2010-04-13,rds,eu-west-1,1,http://aws.amazon.com/about-aws/whats-new/2010/04/13/announcing-amazon-relational-database-service-rds-in-the-eu-region/
+2010-04-29,ec2,ap-southeast-1,1,http://aws.amazon.com/about-aws/whats-new/2010/04/29/announcing-asia-pacific-singapore-region/
+2010-04-29,s3,ap-southeast-1,1,http://aws.amazon.com/about-aws/whats-new/2010/04/29/announcing-asia-pacific-singapore-region/
+2010-04-29,simpledb,ap-southeast-1,1,http://aws.amazon.com/about-aws/whats-new/2010/04/29/announcing-asia-pacific-singapore-region/
+2010-04-29,rds,ap-southeast-1,1,http://aws.amazon.com/about-aws/whats-new/2010/04/29/announcing-asia-pacific-singapore-region/
+2010-04-29,sqs,ap-southeast-1,1,http://aws.amazon.com/about-aws/whats-new/2010/04/29/announcing-asia-pacific-singapore-region/
+2010-04-29,sns,ap-southeast-1,1,http://aws.amazon.com/about-aws/whats-new/2010/04/29/announcing-asia-pacific-singapore-region/
+2010-04-29,cloudwatch,ap-southeast-1,1,http://aws.amazon.com/about-aws/whats-new/2010/04/29/announcing-asia-pacific-singapore-region/
+2010-04-29,elb,ap-southeast-1,0,"Similar problems as with us-west-1 elb. Noticeably cloudwatch is mentioned, but not ELB (see press release too, http://phx.corporate-ir.net/phoenix.zhtml?c=176060&p=irol-newsArticle&ID=1419606&highlight). This would suggest that ELB was not available at launch, but without better information it is staked at region launch date."
+2010-04-29,ebs,ap-southeast-1,1,"http://aws.amazon.com/about-aws/whats-new/2010/04/29/announcing-asia-pacific-singapore-region/ does not mention EBS, nor does any of forum announcements. Yet, RDS is mentioned and AFAIK RDS works using EBS. There isn't any separate announcement of EBS in ap-southeast-1 so assuming this was just an omission (all future announcements follow the same pattern, but include EBS too.) Also previous annouregion us-west-1 already had EBS."
+2010-04-29,autoscaling,ap-southeast-1,0,"Same as with us-west-1, http://aws.amazon.com/about-aws/whats-new/2010/04/29/announcing-asia-pacific-singapore-region/ has no auto scaling but no separate later announcements either."
+2010-05-04,vpc,eu-west-1,1,http://aws.amazon.com/about-aws/whats-new/2010/05/04/announcing-amazon-vpc-in-the-eu-region/
+2010-05-06,rds,us-west-1,1,http://aws.amazon.com/about-aws/whats-new/2010/05/06/announcing-amazon-relational-database-service-rds-in-the-northern-california-region/
+2010-12-28,import-export,ap-southeast-1,1,http://aws.amazon.com/about-aws/whats-new/2010/12/28/aws-importexport-now-supports-the-asia-pacific-singapore-region/
+2011-01-19,elasticbeanstalk,us-east-1,1,"http://aws.amazon.com/about-aws/whats-new/2011/01/19/introducing-aws-elastic-beanstalk-beta/
+https://web.archive.org/web/20110122104653/http://aws.amazon.com/elasticbeanstalk/faqs/#regions mentions only supported in us-east-1. There are also later announcements during 2012 for other regions, so assuming us-east-1 is the only supported region at this time."
+2011-01-25,ses,us-east-1,1,"http://aws.amazon.com/about-aws/whats-new/2011/01/25/introducing-amazon-simple-email-service-beta/
+https://web.archive.org/web/20110128073200/http://aws.amazon.com/ses/faqs/ FAQ from 2011-01-28 says that ”Amazon SES is hosted in the US-East (Northern Virginia) Region”."
+2011-02-25,cloudformation,ap-southeast-1,1,"http://aws.amazon.com/about-aws/whats-new/2011/02/25/introducing-aws-cloudformation/
+FAQ  https://web.archive.org/web/20110301014440/http://aws.amazon.com/cloudformation/faqs/  from 2011-03-01 says ”AWS CloudFormation is available in all AWS regions.”. At 2011-02-25 there were four regions: us-east-1, us-west-1, eu-west-1 and ap-southeast-1."
+2011-02-25,cloudformation,eu-west-1,1,"http://aws.amazon.com/about-aws/whats-new/2011/02/25/introducing-aws-cloudformation/
+FAQ  https://web.archive.org/web/20110301014440/http://aws.amazon.com/cloudformation/faqs/  from 2011-03-01 says ”AWS CloudFormation is available in all AWS regions.”. At 2011-02-25 there were four regions: us-east-1, us-west-1, eu-west-1 and ap-southeast-1."
+2011-02-25,cloudformation,us-east-1,1,"http://aws.amazon.com/about-aws/whats-new/2011/02/25/introducing-aws-cloudformation/
+FAQ  https://web.archive.org/web/20110301014440/http://aws.amazon.com/cloudformation/faqs/  from 2011-03-01 says ”AWS CloudFormation is available in all AWS regions.”. At 2011-02-25 there were four regions: us-east-1, us-west-1, eu-west-1 and ap-southeast-1."
+2011-02-25,cloudformation,us-west-1,1,"http://aws.amazon.com/about-aws/whats-new/2011/02/25/introducing-aws-cloudformation/
+FAQ  https://web.archive.org/web/20110301014440/http://aws.amazon.com/cloudformation/faqs/  from 2011-03-01 says ”AWS CloudFormation is available in all AWS regions.”. At 2011-02-25 there were four regions: us-east-1, us-west-1, eu-west-1 and ap-southeast-1."
+2011-02-28,import-export,us-west-1,0,"This is difficult to determine and there are conflicting information. https://web.archive.org/web/20111120023918/http://aws.amazon.com/about-aws/globalinfrastructure/? shows ”AWS Import/Export” for us-west-1 on 2011-11-20 but 2011-11-13 doesn't list it.
+Then yet again the product page itself https://web.archive.org/web/20110228142631/http://aws.amazon.com/importexport/  on 2011-02-28 mentions Oregon (but not on previous saved version from 2010-12-02).
+Finally the import/export price calculator https://web.archive.org/web/20110707122314/http://awsimportexport.s3.amazonaws.com/aws-import-export-calculator.html  from 2011-07-07 shows Oregon in the region list.
+Picked the first known Oregon mention for import/export with the assumption that the globalinfrastructure page was in error (and was later fixed) of 2011-02-28, but marked as inaccurate."
+2011-03-02,ec2,ap-northeast-1,1,http://aws.amazon.com/about-aws/whats-new/2011/03/02/announcing-asia-pacific-tokyo-region/
+2011-03-02,s3,ap-northeast-1,1,http://aws.amazon.com/about-aws/whats-new/2011/03/02/announcing-asia-pacific-tokyo-region/
+2011-03-02,rds,ap-northeast-1,1,http://aws.amazon.com/about-aws/whats-new/2011/03/02/announcing-asia-pacific-tokyo-region/
+2011-03-02,simpledb,ap-northeast-1,1,http://aws.amazon.com/about-aws/whats-new/2011/03/02/announcing-asia-pacific-tokyo-region/ http://phx.corporate-ir.net/phoenix.zhtml?c=176060&p=irol-newsArticle&ID=1534946
+2011-03-02,sqs,ap-northeast-1,1,http://aws.amazon.com/about-aws/whats-new/2011/03/02/announcing-asia-pacific-tokyo-region/ http://phx.corporate-ir.net/phoenix.zhtml?c=176060&p=irol-newsArticle&ID=1534946
+2011-03-02,sns,ap-northeast-1,1,http://aws.amazon.com/about-aws/whats-new/2011/03/02/announcing-asia-pacific-tokyo-region/ http://phx.corporate-ir.net/phoenix.zhtml?c=176060&p=irol-newsArticle&ID=1534946
+2011-03-02,cloudformation,ap-northeast-1,1,http://aws.amazon.com/about-aws/whats-new/2011/03/02/announcing-asia-pacific-tokyo-region/ http://phx.corporate-ir.net/phoenix.zhtml?c=176060&p=irol-newsArticle&ID=1534946
+2011-03-02,cloudwatch,ap-northeast-1,1, http://phx.corporate-ir.net/phoenix.zhtml?c=176060&p=irol-newsArticle&ID=1534946
+2011-03-02,elb,ap-northeast-1,1,http://aws.amazon.com/blogs/aws/now-open-aws-region-in-tokyo/
+2011-03-02,ebs,ap-northeast-1,1,"http://aws.amazon.com/about-aws/whats-new/2011/03/02/announcing-asia-pacific-tokyo-region
+http://phx.corporate-ir.net/phoenix.zhtml?c=176060&p=irol-newsArticle&ID=1534946"
+2011-03-02,autoscaling,ap-northeast-1,0,"Same as with us-west-1 and ap-southeast-1, http://aws.amazon.com/about-aws/whats-new/2011/03/02/announcing-asia-pacific-tokyo-region/ doesn't say anything about auto scaling."
+2011-04-14,emr,ap-northeast-1,1,http://aws.amazon.com/about-aws/whats-new/2011/04/14/amazon-elastic-mapreduce-now-available-in-asia-pacific-regions/
+2011-04-14,emr,ap-southeast-1,1,http://aws.amazon.com/about-aws/whats-new/2011/04/14/amazon-elastic-mapreduce-now-available-in-asia-pacific-regions/
+2011-08-03,vpc,ap-northeast-1,1,http://aws.amazon.com/about-aws/whats-new/2011/08/03/Announcing-VPC-GA/ (us-east-1 and eu-west-1 already had vpc before this).
+2011-08-03,vpc,ap-southeast-1,1,http://aws.amazon.com/about-aws/whats-new/2011/08/03/Announcing-VPC-GA/ (us-east-1 and eu-west-1 already had vpc before this).
+2011-08-03,directconnect,us-east-1,1,http://aws.amazon.com/about-aws/whats-new/2011/08/03/Announcing-AWS-Direct-Connect/
+2011-08-03,vpc,us-west-1,1,http://aws.amazon.com/about-aws/whats-new/2011/08/03/Announcing-VPC-GA/ (us-east-1 and eu-west-1 already had vpc before this).
+2011-08-16,ec2,govcloud,1,http://aws.amazon.com/about-aws/whats-new/2011/08/16/announcing-aws-govcloud-us/
+2011-08-16,s3,govcloud,1,http://aws.amazon.com/about-aws/whats-new/2011/08/16/announcing-aws-govcloud-us/
+2011-08-16,vpc,govcloud,1,http://aws.amazon.com/about-aws/whats-new/2011/08/16/announcing-aws-govcloud-us/
+2011-08-22,elasticache,us-east-1,1,http://aws.amazon.com/about-aws/whats-new/2011/08/22/announcing-amazon-elasticache/ 
+2011-09-08,directconnect,us-west-1,1,http://aws.amazon.com/about-aws/whats-new/2011/09/08/AWS-Direct-Connect-GA-US-West/ 
+2011-11-08,ec2,us-west-2,1,http://aws.amazon.com/about-aws/whats-new/2011/11/08/Announcing-new-us-west-oregon-region/
+2011-11-08,s3,us-west-2,1,http://aws.amazon.com/about-aws/whats-new/2011/11/08/Announcing-new-us-west-oregon-region/
+2011-11-08,ebs,us-west-2,1,http://aws.amazon.com/about-aws/whats-new/2011/11/08/Announcing-new-us-west-oregon-region/
+2011-11-08,simpledb,us-west-2,1,http://aws.amazon.com/about-aws/whats-new/2011/11/08/Announcing-new-us-west-oregon-region/
+2011-11-08,rds,us-west-2,1,http://aws.amazon.com/about-aws/whats-new/2011/11/08/Announcing-new-us-west-oregon-region/
+2011-11-08,sqs,us-west-2,1,http://aws.amazon.com/about-aws/whats-new/2011/11/08/Announcing-new-us-west-oregon-region/
+2011-11-08,sns,us-west-2,1,http://aws.amazon.com/about-aws/whats-new/2011/11/08/Announcing-new-us-west-oregon-region/
+2011-11-08,vpc,us-west-2,1,http://aws.amazon.com/about-aws/whats-new/2011/11/08/Announcing-new-us-west-oregon-region/
+2011-11-08,elb,us-west-2,1,http://aws.amazon.com/about-aws/whats-new/2011/11/08/Announcing-new-us-west-oregon-region/
+2011-11-08,emr,us-west-2,1,http://aws.amazon.com/about-aws/whats-new/2011/11/08/Announcing-new-us-west-oregon-region/
+2011-11-08,cloudformation,us-west-2,1,http://aws.amazon.com/about-aws/whats-new/2011/11/08/Announcing-new-us-west-oregon-region/
+2011-11-08,cloudwatch,us-west-2,1,http://aws.amazon.com/about-aws/whats-new/2011/11/08/Announcing-new-us-west-oregon-region/
+2011-11-08,import-export,us-west-2,1,"http://aws.amazon.com/about-aws/whats-new/2011/11/08/Announcing-new-us-west-oregon-region/ does not explicitly state import-export. https://web.archive.org/web/20111111055756/http://aws.amazon.com/importexport  from 2011-11-11 states ”AWS Import/Export supports importing and exporting data into and out of Amazon S3 buckets in the US Standard, US West (Oregon), US West (Northern California), EU (Ireland), and Asia Pacific (Singapore) Regions.”. Assuming service available from launch day."
+2011-11-08,autoscaling,us-west-2,1,http://aws.amazon.com/about-aws/whats-new/2011/11/08/Announcing-new-us-west-oregon-region/ 
+2011-12-05,elasticache,ap-northeast-1,1,http://aws.amazon.com/about-aws/whats-new/2011/12/05/amazon-elasticache-new-regions/
+2011-12-05,elasticache,ap-southeast-1,1,http://aws.amazon.com/about-aws/whats-new/2011/12/05/amazon-elasticache-new-regions/
+2011-12-05,elasticache,eu-west-1,1,http://aws.amazon.com/about-aws/whats-new/2011/12/05/amazon-elasticache-new-regions/
+2011-12-05,elasticache,us-west-1,1,http://aws.amazon.com/about-aws/whats-new/2011/12/05/amazon-elasticache-new-regions/
+2011-12-14,ec2,sa-east-1,1,http://aws.amazon.com/about-aws/whats-new/2011/12/14/announcing-the-south-america-sao-paulo-region/
+2011-12-14,s3,sa-east-1,1,http://aws.amazon.com/about-aws/whats-new/2011/12/14/announcing-the-south-america-sao-paulo-region/
+2011-12-14,ebs,sa-east-1,1,http://aws.amazon.com/about-aws/whats-new/2011/12/14/announcing-the-south-america-sao-paulo-region/
+2011-12-14,simpledb,sa-east-1,1,http://aws.amazon.com/about-aws/whats-new/2011/12/14/announcing-the-south-america-sao-paulo-region/
+2011-12-14,rds,sa-east-1,1,http://aws.amazon.com/about-aws/whats-new/2011/12/14/announcing-the-south-america-sao-paulo-region/
+2011-12-14,sqs,sa-east-1,1,http://aws.amazon.com/about-aws/whats-new/2011/12/14/announcing-the-south-america-sao-paulo-region/
+2011-12-14,sns,sa-east-1,1,http://aws.amazon.com/about-aws/whats-new/2011/12/14/announcing-the-south-america-sao-paulo-region/
+2011-12-14,vpc,sa-east-1,1,http://aws.amazon.com/about-aws/whats-new/2011/12/14/announcing-the-south-america-sao-paulo-region/
+2011-12-14,elb,sa-east-1,1,http://aws.amazon.com/about-aws/whats-new/2011/12/14/announcing-the-south-america-sao-paulo-region/
+2011-12-14,emr,sa-east-1,1,http://aws.amazon.com/about-aws/whats-new/2011/12/14/announcing-the-south-america-sao-paulo-region/
+2011-12-14,cloudformation,sa-east-1,1,http://aws.amazon.com/about-aws/whats-new/2011/12/14/announcing-the-south-america-sao-paulo-region/
+2011-12-14,cloudwatch,sa-east-1,1,http://aws.amazon.com/about-aws/whats-new/2011/12/14/announcing-the-south-america-sao-paulo-region/
+2011-12-14,autoscaling,sa-east-1,1,http://aws.amazon.com/about-aws/whats-new/2011/12/14/announcing-the-south-america-sao-paulo-region/ 
+2012-01-10,directconnect,ap-northeast-1,1,http://aws.amazon.com/about-aws/whats-new/2012/01/10/AWS-Direct-Connect-GA-US-West-1/
+2012-01-10,directconnect,ap-southeast-1,1,http://aws.amazon.com/about-aws/whats-new/2012/01/10/AWS-Direct-Connect-GA-US-West-1/
+2012-01-10,directconnect,eu-west-1,1,http://aws.amazon.com/about-aws/whats-new/2012/01/10/AWS-Direct-Connect-GA-US-West-1/
+2012-01-18,dynamodb,us-east-1,1,"http://aws.amazon.com/about-aws/whats-new/2012/01/18/aws-announces-dynamodb/
+Later http://aws.amazon.com/about-aws/whats-new/2012/02/29/dynamodb-now-available-in-japan/ adds ap-northeast-1 and shows only those two regions, so assuming that started in only us-east-1."
+2012-01-24,storagegateway,ap-northeast-1,1,"http://aws.amazon.com/about-aws/whats-new/2012/01/24/announcing-aws-storage-gateway/
+Note that http://aws.amazon.com/about-aws/whats-new/2012/03/15/storage-gateway-now-available-in-south-america/ xplicitly mentions that sa-east-1 is now supported. Service endpoints for storage gateway https://web.archive.org/web/20130113092551/http://docs.aws.amazon.com/general/latest/gr/rande.html#sg_region from 2013-01-13 list all regions (except govcloud) supported, so making the assumption that storage gateway was available from start in all but sa-east-1 region.
+http://aws.amazon.com/about-aws/whats-new/2012/01/24/announcing-aws-storage-gateway/
+No explicit mentions of regions supported in news, product page or FAQ. Service listing from 2012-05-28 (https://web.archive.org/web/20120528152055/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services) shows support for all current regions (except govcloud). Assuming this is an overlay service on S3 (as implied) that works in all regions by default."
+2012-01-24,storagegateway,ap-southeast-1,1,"http://aws.amazon.com/about-aws/whats-new/2012/01/24/announcing-aws-storage-gateway/
+Note that http://aws.amazon.com/about-aws/whats-new/2012/03/15/storage-gateway-now-available-in-south-america/ xplicitly mentions that sa-east-1 is now supported. Service endpoints for storage gateway https://web.archive.org/web/20130113092551/http://docs.aws.amazon.com/general/latest/gr/rande.html#sg_region from 2013-01-13 list all regions (except govcloud) supported, so making the assumption that storage gateway was available from start in all but sa-east-1 region."
+2012-01-24,storagegateway,eu-west-1,1,"http://aws.amazon.com/about-aws/whats-new/2012/01/24/announcing-aws-storage-gateway/
+Note that http://aws.amazon.com/about-aws/whats-new/2012/03/15/storage-gateway-now-available-in-south-america/ xplicitly mentions that sa-east-1 is now supported. Service endpoints for storage gateway https://web.archive.org/web/20130113092551/http://docs.aws.amazon.com/general/latest/gr/rande.html#sg_region from 2013-01-13 list all regions (except govcloud) supported, so making the assumption that storage gateway was available from start in all but sa-east-1 region."
+2012-01-24,storagegateway,us-east-1,1,"http://aws.amazon.com/about-aws/whats-new/2012/01/24/announcing-aws-storage-gateway/
+No explicit mentions of regions supported in news, product page or FAQ. Service listing from 2012-05-28 (https://web.archive.org/web/20120528152055/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services) shows support for all current regions (except govcloud). Assuming this is an overlay service on S3 (as implied) that works in all regions by default."
+2012-01-24,storagegateway,us-west-1,1,"http://aws.amazon.com/about-aws/whats-new/2012/01/24/announcing-aws-storage-gateway/
+Note that http://aws.amazon.com/about-aws/whats-new/2012/03/15/storage-gateway-now-available-in-south-america/ xplicitly mentions that sa-east-1 is now supported. Service endpoints for storage gateway https://web.archive.org/web/20130113092551/http://docs.aws.amazon.com/general/latest/gr/rande.html#sg_region from 2013-01-13 list all regions (except govcloud) supported, so making the assumption that storage gateway was available from start in all but sa-east-1 region."
+2012-01-24,storagegateway,us-west-2,1,"http://aws.amazon.com/about-aws/whats-new/2012/01/24/announcing-aws-storage-gateway/
+Note that http://aws.amazon.com/about-aws/whats-new/2012/03/15/storage-gateway-now-available-in-south-america/ xplicitly mentions that sa-east-1 is now supported. Service endpoints for storage gateway https://web.archive.org/web/20130113092551/http://docs.aws.amazon.com/general/latest/gr/rande.html#sg_region from 2013-01-13 list all regions (except govcloud) supported, so making the assumption that storage gateway was available from start in all but sa-east-1 region."
+2012-02-21,swf,us-east-1,1,"http://aws.amazon.com/about-aws/whats-new/2012/02/21/aws-announces-swf/
+Based on http://aws.amazon.com/about-aws/whats-new/2013/01/30/amazon-swf-in-seven-additional-regions-and-extends-IAM-Support/ swf supported only in us-east-1 at this time.
+"
+2012-02-22,elasticache,sa-east-1,1,http://aws.amazon.com/about-aws/whats-new/2012/02/22/elasticache-in-oregon-and-sao-paulo/
+2012-02-22,elasticache,us-west-2,1,http://aws.amazon.com/about-aws/whats-new/2012/02/22/elasticache-in-oregon-and-sao-paulo/
+2012-02-29,dynamodb,ap-northeast-1,1,http://aws.amazon.com/about-aws/whats-new/2012/02/29/dynamodb-now-available-in-japan/
+2012-03-07,dynamodb,eu-west-1,1,http://aws.amazon.com/about-aws/whats-new/2012/03/07/dynamodb-now-available-in-europe/
+2012-03-15,storagegateway,sa-east-1,1,http://aws.amazon.com/about-aws/whats-new/2012/03/15/storage-gateway-now-available-in-south-america/
+2012-04-11,cloudsearch,us-east-1,1,"http://aws.amazon.com/about-aws/whats-new/2012/04/11/aws-announces-cloudsearch/
+http://aws.amazon.com/blogs/aws/amazon-cloudsearch-start-searching-in-one-hour/ mentions that ”It exists within a particular Availability Zone of a single AWS Region (initially US East).”"
+2012-04-23,elasticbeanstalk,ap-northeast-1,1,http://aws.amazon.com/about-aws/whats-new/2012/04/23/aws-elastic-beanstalk-now-available-in-the-asia-pacific-tokyo-region/
+2012-04-24,dynamodb,ap-southeast-1,1,http://aws.amazon.com/about-aws/whats-new/2012/04/24/dynamodb-now-available-in-three-additional-regions/
+2012-04-24,dynamodb,us-west-1,1,http://aws.amazon.com/about-aws/whats-new/2012/04/24/dynamodb-now-available-in-three-additional-regions/
+2012-04-24,dynamodb,us-west-2,1,http://aws.amazon.com/about-aws/whats-new/2012/04/24/dynamodb-now-available-in-three-additional-regions/
+2012-05-16,elasticbeanstalk,eu-west-1,1,http://aws.amazon.com/about-aws/whats-new/2012/05/16/aws-elastic-beanstalk-now-available-in-the-eu-ireland-region/
+2012-07-10,elasticbeanstalk,us-west-1,1,http://aws.amazon.com/about-aws/whats-new/2012/07/10/aws-elastic-beanstalk-now-available-in-us-west-oregon-and-us-west-northern-california/
+2012-07-10,elasticbeanstalk,us-west-2,1,http://aws.amazon.com/about-aws/whats-new/2012/07/10/aws-elastic-beanstalk-now-available-in-us-west-oregon-and-us-west-northern-california/
+2012-08-13,directconnect,sa-east-1,1,http://aws.amazon.com/about-aws/whats-new/2012/08/13/AWS-Direct-Connect-Console/
+2012-08-20,glacier,ap-northeast-1,1,http://aws.amazon.com/about-aws/whats-new/2012/08/20/announcing-amazon-glacier/
+2012-08-20,glacier,eu-west-1,1,http://aws.amazon.com/about-aws/whats-new/2012/08/20/announcing-amazon-glacier/
+2012-08-20,glacier,us-east-1,1,http://aws.amazon.com/about-aws/whats-new/2012/08/20/announcing-amazon-glacier/
+2012-08-20,glacier,us-west-1,1,http://aws.amazon.com/about-aws/whats-new/2012/08/20/announcing-amazon-glacier/
+2012-08-20,glacier,us-west-2,1,http://aws.amazon.com/about-aws/whats-new/2012/08/20/announcing-amazon-glacier/
+2012-09-04,elasticbeanstalk,ap-southeast-1,1,http://aws.amazon.com/about-aws/whats-new/2012/09/04/aws-elastic-beanstalk-now-available-in-the-asia-pacific-singapore-region/
+2012-10-09,sns,govcloud,1,http://aws.amazon.com/about-aws/whats-new/2012/10/09/AWS-GovCloud-US-Region-Announces-New-Features-and-Services/
+2012-10-09,sqs,govcloud,1,http://aws.amazon.com/about-aws/whats-new/2012/10/09/AWS-GovCloud-US-Region-Announces-New-Features-and-Services/
+2012-10-09,cloudwatch,govcloud,1,http://aws.amazon.com/about-aws/whats-new/2012/10/09/AWS-GovCloud-US-Region-Announces-New-Features-and-Services/
+2012-10-09,ebs,govcloud,1,"http://aws.amazon.com/about-aws/whats-new/2012/10/09/AWS-GovCloud-US-Region-Announces-New-Features-and-Services/
+https://web.archive.org/web/20110829061954/http://aws.amazon.com/govcloud-us/ "
+2012-10-09,autoscaling,govcloud,1,http://aws.amazon.com/about-aws/whats-new/2012/10/09/AWS-GovCloud-US-Region-Announces-New-Features-and-Services/
+2012-11-12,ec2,ap-southeast-2,1,"http://aws.amazon.com/about-aws/whats-new/2012/11/12/announcing-the-aws-asia-pacific-sydney-region/
+https://web.archive.org/web/20130112131957/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services/ (from 2013-01-12) for services."
+2012-11-12,cloudwatch,ap-southeast-2,1,"http://aws.amazon.com/about-aws/whats-new/2012/11/12/announcing-the-aws-asia-pacific-sydney-region/
+https://web.archive.org/web/20130112131957/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services/ (from 2013-01-12) for services."
+2012-11-12,vpc,ap-southeast-2,1,"http://aws.amazon.com/about-aws/whats-new/2012/11/12/announcing-the-aws-asia-pacific-sydney-region/
+https://web.archive.org/web/20130112131957/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services/ (from 2013-01-12) for services."
+2012-11-12,s3,ap-southeast-2,1,"http://aws.amazon.com/about-aws/whats-new/2012/11/12/announcing-the-aws-asia-pacific-sydney-region/
+https://web.archive.org/web/20130112131957/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services/ (from 2013-01-12) for services."
+2012-11-12,ebs,ap-southeast-2,1,"http://aws.amazon.com/about-aws/whats-new/2012/11/12/announcing-the-aws-asia-pacific-sydney-region/
+https://web.archive.org/web/20130112131957/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services/ (from 2013-01-12) for services."
+2012-11-12,sqs,ap-southeast-2,1,"http://aws.amazon.com/about-aws/whats-new/2012/11/12/announcing-the-aws-asia-pacific-sydney-region/
+https://web.archive.org/web/20130112131957/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services/ (from 2013-01-12) for services."
+2012-11-12,sns,ap-southeast-2,1,"http://aws.amazon.com/about-aws/whats-new/2012/11/12/announcing-the-aws-asia-pacific-sydney-region/
+https://web.archive.org/web/20130112131957/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services/ (from 2013-01-12) for services."
+2012-11-12,elb,ap-southeast-2,1,"http://aws.amazon.com/about-aws/whats-new/2012/11/12/announcing-the-aws-asia-pacific-sydney-region/
+https://web.archive.org/web/20130112131957/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services/ (from 2013-01-12) for services."
+2012-11-12,dynamodb,ap-southeast-2,1,"http://aws.amazon.com/about-aws/whats-new/2012/11/12/announcing-the-aws-asia-pacific-sydney-region/
+https://web.archive.org/web/20130112131957/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services/ (from 2013-01-12) for services."
+2012-11-12,rds,ap-southeast-2,1,"http://aws.amazon.com/about-aws/whats-new/2012/11/12/announcing-the-aws-asia-pacific-sydney-region/
+https://web.archive.org/web/20130112131957/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services/ (from 2013-01-12) for services."
+2012-11-12,emr,ap-southeast-2,1,"http://aws.amazon.com/about-aws/whats-new/2012/11/12/announcing-the-aws-asia-pacific-sydney-region/
+https://web.archive.org/web/20130112131957/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services/ (from 2013-01-12) for services."
+2012-11-12,cloudformation,ap-southeast-2,1,"http://aws.amazon.com/about-aws/whats-new/2012/11/12/announcing-the-aws-asia-pacific-sydney-region/
+https://web.archive.org/web/20130112131957/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services/ (from 2013-01-12) for services."
+2012-11-12,elasticbeanstalk,ap-southeast-2,1,"http://aws.amazon.com/about-aws/whats-new/2012/11/12/announcing-the-aws-asia-pacific-sydney-region/
+https://web.archive.org/web/20130112131957/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services/ (from 2013-01-12) for services."
+2012-11-12,storagegateway,ap-southeast-2,1,"http://aws.amazon.com/about-aws/whats-new/2012/11/12/announcing-the-aws-asia-pacific-sydney-region/
+https://web.archive.org/web/20130112131957/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services/ (from 2013-01-12) for services."
+2012-11-12,simpledb,ap-southeast-2,1,"http://aws.amazon.com/about-aws/whats-new/2012/11/12/announcing-the-aws-asia-pacific-sydney-region/
+https://web.archive.org/web/20130112131957/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services/ (from 2013-01-12) for services."
+2012-11-12,directconnect,ap-southeast-2,1,"http://aws.amazon.com/about-aws/whats-new/2012/11/12/announcing-the-aws-asia-pacific-sydney-region/
+https://web.archive.org/web/20130112131957/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services/ (from 2013-01-12) for services."
+2012-11-12,autoscaling,ap-southeast-2,1,"http://aws.amazon.com/about-aws/whats-new/2012/11/12/announcing-the-aws-asia-pacific-sydney-region/
+https://web.archive.org/web/20121112115244/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services/ shows auto scaling in Sydney, so assuming launched with it.
+"
+2012-11-20,dynamodb,sa-east-1,1,http://aws.amazon.com/about-aws/whats-new/2012/11/20/dynamodb-now-available-in-south-america/
+2012-11-28,redshift,us-east-1,1,"http://aws.amazon.com/about-aws/whats-new/2012/11/28/announcing-amazon-redshift/
+https://web.archive.org/web/20130307224330/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services/  (from 2013-03-07) shows redshift available only in us-east-1."
+2012-12-03,dynamodb,govcloud,1,http://aws.amazon.com/about-aws/whats-new/2012/12/03/AWS-GovCloud-US-Region-Announces-Amazon-DynamoDB/
+2012-12-06,elasticbeanstalk,sa-east-1,1,http://aws.amazon.com/about-aws/whats-new/2012/12/06/announcing-three-new-additions-to-sao-paulo-region/
+2012-12-20,datapipeline,us-east-1,1,"http://aws.amazon.com/about-aws/whats-new/2012/12/20/announcing-aws-data-pipeline/
+http://aws.amazon.com/about-aws/whats-new/2014/02/20/aws-data-pipeline-now-available-in-four-new-regions/ (from 2014-02-20) implies that us-east-1 was the only one prior to that date for datapipeline.
+"
+2012-12-21,rds,govcloud,1,http://aws.amazon.com/about-aws/whats-new/2012/12/21/aws-govcloud-us-region-announces-amazon-rds/
+2013-01-28,elastictranscoder,ap-northeast-1,1,"http://aws.amazon.com/about-aws/whats-new/2013/01/28/announcing-amazon-elastic-transcoder/
+https://web.archive.org/web/20130307224330/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services/ (from 2013-03-07) and https://web.archive.org/web/20130205045250/http://aws.amazon.com/elastictranscoder/faqs/ (2013-02-05) list us-east-1, us-west-2, us-west-1, eu-west-1, ap-southeast-1, ap-northeast-1."
+2013-01-28,elastictranscoder,ap-southeast-1,1,"http://aws.amazon.com/about-aws/whats-new/2013/01/28/announcing-amazon-elastic-transcoder/
+https://web.archive.org/web/20130307224330/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services/ (from 2013-03-07) and https://web.archive.org/web/20130205045250/http://aws.amazon.com/elastictranscoder/faqs/ (2013-02-05) list us-east-1, us-west-2, us-west-1, eu-west-1, ap-southeast-1, ap-northeast-1."
+2013-01-28,elastictranscoder,eu-west-1,1,"http://aws.amazon.com/about-aws/whats-new/2013/01/28/announcing-amazon-elastic-transcoder/
+https://web.archive.org/web/20130307224330/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services/ (from 2013-03-07) and https://web.archive.org/web/20130205045250/http://aws.amazon.com/elastictranscoder/faqs/ (2013-02-05) list us-east-1, us-west-2, us-west-1, eu-west-1, ap-southeast-1, ap-northeast-1."
+2013-01-28,elastictranscoder,us-east-1,1,"http://aws.amazon.com/about-aws/whats-new/2013/01/28/announcing-amazon-elastic-transcoder/
+https://web.archive.org/web/20130307224330/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services/ (from 2013-03-07) and https://web.archive.org/web/20130205045250/http://aws.amazon.com/elastictranscoder/faqs/ (2013-02-05) list us-east-1, us-west-2, us-west-1, eu-west-1, ap-southeast-1, ap-northeast-1."
+2013-01-28,elastictranscoder,us-west-1,1,"http://aws.amazon.com/about-aws/whats-new/2013/01/28/announcing-amazon-elastic-transcoder/
+https://web.archive.org/web/20130307224330/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services/ (from 2013-03-07) and https://web.archive.org/web/20130205045250/http://aws.amazon.com/elastictranscoder/faqs/ (2013-02-05) list us-east-1, us-west-2, us-west-1, eu-west-1, ap-southeast-1, ap-northeast-1."
+2013-01-28,elastictranscoder,us-west-2,1,"http://aws.amazon.com/about-aws/whats-new/2013/01/28/announcing-amazon-elastic-transcoder/
+https://web.archive.org/web/20130307224330/http://aws.amazon.com/about-aws/globalinfrastructure/regional-product-services/ (from 2013-03-07) and https://web.archive.org/web/20130205045250/http://aws.amazon.com/elastictranscoder/faqs/ (2013-02-05) list us-east-1, us-west-2, us-west-1, eu-west-1, ap-southeast-1, ap-northeast-1."
+2013-01-30,swf,ap-northeast-1,1,http://aws.amazon.com/about-aws/whats-new/2013/01/30/amazon-swf-in-seven-additional-regions-and-extends-IAM-Support/
+2013-01-30,swf,ap-southeast-1,1,http://aws.amazon.com/about-aws/whats-new/2013/01/30/amazon-swf-in-seven-additional-regions-and-extends-IAM-Support/
+2013-01-30,swf,ap-southeast-2,1,http://aws.amazon.com/about-aws/whats-new/2013/01/30/amazon-swf-in-seven-additional-regions-and-extends-IAM-Support/
+2013-01-30,swf,eu-west-1,1,http://aws.amazon.com/about-aws/whats-new/2013/01/30/amazon-swf-in-seven-additional-regions-and-extends-IAM-Support/
+2013-01-30,swf,sa-east-1,1,http://aws.amazon.com/about-aws/whats-new/2013/01/30/amazon-swf-in-seven-additional-regions-and-extends-IAM-Support/
+2013-01-30,swf,us-west-1,1,http://aws.amazon.com/about-aws/whats-new/2013/01/30/amazon-swf-in-seven-additional-regions-and-extends-IAM-Support/
+2013-01-30,swf,us-west-2,1,http://aws.amazon.com/about-aws/whats-new/2013/01/30/amazon-swf-in-seven-additional-regions-and-extends-IAM-Support/
+2013-02-15,cloudsearch,eu-west-1,0,"http://aws.amazon.com/about-aws/whats-new/2013/02/27/amazon-cloudsearch-now-available-in-three-additional-regions-worldwide/ mentions ”These new Regions join the US East (Northern Virginia) Region, and the recently added EU (Ireland) Region”, yet after the original annoouncement on 2012-11-04 no explicit announcement about eu-west-1 was made.
+https://forums.aws.amazon.com/thread.jspa?messageID=368820&#368820 (2012-08-01) explicitly states that cloudsearch is not yet available in EU, and https://forums.aws.amazon.com/thread.jspa?threadID=116918&tstart=400 (2013-02-15) mentions cloudsearch being used in EU region. Picking 2013-02-15 as the earliest confirmed availability for cloudsearch in EU region.
+"
+2013-02-27,cloudsearch,ap-southeast-1,1,http://aws.amazon.com/about-aws/whats-new/2013/02/27/amazon-cloudsearch-now-available-in-three-additional-regions-worldwide/ 
+2013-02-27,cloudsearch,us-west-1,1,http://aws.amazon.com/about-aws/whats-new/2013/02/27/amazon-cloudsearch-now-available-in-three-additional-regions-worldwide/ 
+2013-02-27,cloudsearch,us-west-2,1,http://aws.amazon.com/about-aws/whats-new/2013/02/27/amazon-cloudsearch-now-available-in-three-additional-regions-worldwide/ 
+2013-03-12,elasticache,ap-southeast-2,1,http://aws.amazon.com/about-aws/whats-new/2013/03/12/amazon-elasticache-announces-asia-pacific-sydney-availability/
+2013-03-18,swf,govcloud,1,http://aws.amazon.com/about-aws/whats-new/2013/03/18/aws-govcloud-us-region-announces-amazon-swf/
+2013-03-26,cloudhsm,eu-west-1,1,"http://aws.amazon.com/about-aws/whats-new/2013/03/26/announcing-aws-cloudhsm/
+https://web.archive.org/web/20130401055055/http://aws.amazon.com/cloudhsm/ (2013-04-01) mentions availability only in us-east-1 and eu-west-1 regions."
+2013-03-26,cloudhsm,us-east-1,1,"http://aws.amazon.com/about-aws/whats-new/2013/03/26/announcing-aws-cloudhsm/
+https://web.archive.org/web/20130401055055/http://aws.amazon.com/cloudhsm/ (2013-04-01) mentions availability only in us-east-1 and eu-west-1 regions."
+2013-04-02,redshift,us-west-2,1,http://aws.amazon.com/about-aws/whats-new/2013/04/02/amazon-redshift-amazon-ec2-hs1-8xl-now-in-oregon/
+2013-04-09,emr,govcloud,1,http://aws.amazon.com/about-aws/whats-new/2013/04/09/aws-govcloud-us-region-announces-amazon-emr/
+2013-04-22,redshift,eu-west-1,1,http://aws.amazon.com/about-aws/whats-new/2013/04/22/amazon-redshift-amazon-ec2-hs1-8xl-now-in-ireland/
+2013-05-08,directconnect,govcloud,1,http://aws.amazon.com/about-aws/whats-new/2013/05/08/aws-direct-connect-location-seattle-and-access-govcloud/
+2013-05-08,directconnect,us-west-2,1,http://aws.amazon.com/about-aws/whats-new/2013/05/08/aws-direct-connect-location-seattle-and-access-govcloud/
+2013-06-04,redshift,ap-northeast-1,1,http://aws.amazon.com/about-aws/whats-new/2013/06/04/amazon-redshift-now-in-tokyo/
+2013-08-28,cloudformation,govcloud,1,http://aws.amazon.com/about-aws/whats-new/2013/08/28/aws-cloudformation-now-available-in-aws-govcloud-us/
+2013-10-08,redshift,ap-southeast-1,1,http://aws.amazon.com/about-aws/whats-new/2013/10/08/redshift-ec2-high-storage-apac/
+2013-10-08,glacier,ap-southeast-2,1,http://aws.amazon.com/about-aws/whats-new/2013/10/08/amazon-glacier-now-available-in-asia-pacific-sydney-region/
+2013-10-08,redshift,ap-southeast-2,1,http://aws.amazon.com/about-aws/whats-new/2013/10/08/redshift-ec2-high-storage-apac/
+2013-11-01,elb,govcloud,1,"http://aws.amazon.com/about-aws/whats-new/2013/11/1/elb-now-ga-in-aws-govcloud-us/
+Note http://aws.amazon.com/about-aws/whats-new/2012/10/09/AWS-GovCloud-US-Region-Announces-New-Features-and-Services/ which actually gave ELB as limited availability in govcloud. This model doesn't take limited/beta/ga differences between regions into account so the first limited beta is ignored and ELB availability in govcloud counted from open beta/ga only, e.g. this entry."
+2013-11-05,cloudhsm,ap-southeast-2,1,http://aws.amazon.com/about-aws/whats-new/2013/11/05/aws-cloudhsm-now-available-in-us-west-and-asia-pacific/
+2013-11-05,cloudhsm,us-west-2,1,http://aws.amazon.com/about-aws/whats-new/2013/11/05/aws-cloudhsm-now-available-in-us-west-and-asia-pacific/
+2013-11-13,appstream,us-east-1,1,"http://aws.amazon.com/about-aws/whats-new/2013/11/13/introducing-amazon-appstream/
+https://web.archive.org/web/20131114015018/http://aws.amazon.com/appstream/faqs/ (from 2013-11-14) says that us-east-1 is the only one available during preview."
+2013-11-13,workspaces,us-east-1,1,"http://aws.amazon.com/about-aws/whats-new/2013/11/13/introducing-amazon-workspaces/
+Assuming that (as usually is) previews only in us-east-1. Also note that after 2014-05 there are explciit announcements about workspaces being available in (other) regions too."
+2013-11-13,kinesis,us-east-1,1,"http://aws.amazon.com/about-aws/whats-new/2013/11/14/introducing-amazon-kinesis/
+On 2014-06-19 http://docs.aws.amazon.com/general/latest/gr/rande.html#ak_region lists only one endpoint (us-east-1) for kinesis."
+2013-11-13,cloudtrail,us-east-1,1,http://aws.amazon.com/blogs/aws/aws-cloudtrail-capture-aws-api-activity/
+2013-11-13,cloudtrail,us-west-2,1,http://aws.amazon.com/blogs/aws/aws-cloudtrail-capture-aws-api-activity/
+2014-01-15,ses,eu-west-1,1,https://forums.aws.amazon.com/ann.jspa?annID=2305
+2014-01-29,ses,us-west-2,1,https://forums.aws.amazon.com/ann.jspa?annID=2325
+2014-02-20,datapipeline,ap-northeast-1,1,"http://aws.amazon.com/about-aws/whats-new/2014/02/20/aws-data-pipeline-now-available-in-four-new-regions/
+https://forums.aws.amazon.com/ann.jspa?annID=2354 "
+2014-02-20,datapipeline,ap-southeast-2,1,"http://aws.amazon.com/about-aws/whats-new/2014/02/20/aws-data-pipeline-now-available-in-four-new-regions/
+https://forums.aws.amazon.com/ann.jspa?annID=2354 "
+2014-02-20,datapipeline,eu-west-1,1,"http://aws.amazon.com/about-aws/whats-new/2014/02/20/aws-data-pipeline-now-available-in-four-new-regions/
+https://forums.aws.amazon.com/ann.jspa?annID=2354 "
+2014-02-20,datapipeline,us-west-2,1,https://forums.aws.amazon.com/ann.jspa?annID=2354 http://aws.amazon.com/about-aws/whats-new/2014/02/20/aws-data-pipeline-now-available-in-four-new-regions/
+2014-03-24,cloudsearch,ap-northeast-1,1,http://aws.amazon.com/blogs/aws/amazon-cloudsearch-even-better-searching-for-less-than-100month/
+2014-03-24,cloudsearch,ap-southeast-2,1,http://aws.amazon.com/blogs/aws/amazon-cloudsearch-even-better-searching-for-less-than-100month/
+2014-03-24,cloudsearch,sa-east-1,1,http://aws.amazon.com/blogs/aws/amazon-cloudsearch-even-better-searching-for-less-than-100month/
+2014-03-26,workspaces,us-west-2,1,http://aws.amazon.com/about-aws/whats-new/2014/03/26/amazon-workspaces-available-for-all-customers/
+2014-05-05,workspaces,eu-west-1,1,http://aws.amazon.com/about-aws/whats-new/2014/05/05/amazon-workspaces-available-in-europe/
+2014-05-13,cloudtrail,ap-southeast-2,1,https://forums.aws.amazon.com/ann.jspa?annID=2483 
+2014-05-13,cloudtrail,eu-west-1,1,https://forums.aws.amazon.com/ann.jspa?annID=2483 
+2014-05-13,cloudtrail,us-west-1,1,https://forums.aws.amazon.com/ann.jspa?annID=2483 
+2014-05-15,workspaces,ap-southeast-2,1,http://aws.amazon.com/about-aws/whats-new/2014/05/15/amazon-workspaces-available-in-sydney/

@@ -1,0 +1,42 @@
+service,name,hasregions,haszones,description
+alexa,Alexa Web Information Service,0,0,http://aws.amazon.com/awis/
+appstream,Amazon AppStream,1,0,http://aws.amazon.com/appstream/
+autoscaling,Auto Scaling,1,0,http://aws.amazon.com/autoscaling/
+cloudformation,AWS CloudFormation,1,0,http://aws.amazon.com/cloudformation/
+cloudfront,Amazon CloudFront,0,0,"http://aws.amazon.com/cloudfront/
+Note: cloudfront operates in multiple regions, but these are edge locations and don't map into ”regions” themselves."
+cloudhsm,AWS CloudHSM,1,0,http://aws.amazon.com/cloudhsm/
+cloudsearch,Amazon CloudSearch,1,0,http://aws.amazon.com/cloudsearch/
+cloudtrail,AWS CloudTrail,1,0,http://aws.amazon.com/cloudtrail/
+cloudwatch,Amazon CloudWatch,1,0,http://aws.amazon.com/cloudwatch/
+datapipeline,AWS Data Pipeline,1,0,http://aws.amazon.com/datapipeline/
+directconnect,AWS Direct Connect,1,0,http://aws.amazon.com/directconnect/
+dynamodb,Amazon DynamoDB,1,0,http://aws.amazon.com/dynamodb/
+ebs,Amazon Elastic Block Store (Amazon EBS) ,1,1,http://aws.amazon.com/ebs/
+ec2,Amazon Elastic Compute Cloud (Amazon EC2),1,1,http://aws.amazon.com/ec2/
+elasticache,Amazon ElastiCache,1,1,http://aws.amazon.com/elasticache/
+elasticbeanstalk,AWS Elastic Beanstalk,1,1,http://aws.amazon.com/elasticbeanstalk/
+elastictranscoder,Amazon Elastic Transcoder,1,0,http://aws.amazon.com/elastictranscoder/
+elb,Elastic Load Balancing,1,0,http://aws.amazon.com/elasticloadbalancing/
+emr,Amazon Elastic MapReduce (Amazon EMR),1,1,http://aws.amazon.com/elasticmapreduce/
+fps,Amazon Payments,0,0,https://payments.amazon.com/developer
+glacier,Amazon Glacier,1,0,http://aws.amazon.com/glacier/
+iam,AWS Identity and Access Management (IAM),0,0,http://aws.amazon.com/iam/
+import-export,AWS Import/Export,1,0,http://aws.amazon.com/importexport/
+kinesis,Amazon Kinesis,1,0,http://aws.amazon.com/kinesis/
+management-console,AWS Management Console,0,0,http://aws.amazon.com/console/
+mturk,Amazon Mechanical Turk,0,0,http://aws.amazon.com/mturk/
+opsworks,AWS OpsWorks,1,0,http://aws.amazon.com/opsworks/
+rds,Amazon Relational Database Service (Amazon RDS),1,1,http://aws.amazon.com/rds/
+redshift,Amazon Redshift,1,0,http://aws.amazon.com/redshift/
+route53,Amazon Route 53,0,0,"http://aws.amazon.com/route53/
+Note: Technically route53 operates in multiple regions, but these are edge locations and don't map into ”regions” themselves."
+s3,Amazon S3,1,0,http://aws.amazon.com/s3/
+ses,Amazon Simple Email Service (Amazon SES),1,0,http://aws.amazon.com/ses/
+simpledb,Amazon SimpleDB,1,0,http://aws.amazon.com/simpledb/
+sns,Amazon Simple Notification Service (Amazon SNS),1,0,http://aws.amazon.com/sns/
+sqs,Amazon Simple Queue Service (SQS),1,0,http://aws.amazon.com/sqs/
+storagegateway,AWS Storage Gateway,1,0,http://aws.amazon.com/storagegateway/
+swf,Amazon Simple Workflow (SWF),1,0,http://aws.amazon.com/swf/
+vpc,Amazon Virtual Private Cloud (Amazon VPC),1,1,http://aws.amazon.com/vpc/
+workspaces,Amazon WorkSpaces,1,0,http://aws.amazon.com/workspaces/
