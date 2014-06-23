@@ -1,16 +1,19 @@
-# Cloud Metadata Repository #
+# Cloud Service Metadata Repository #
 
 Here you will find *metadata* in a *computer-friendly format* about
-Amazon Web Services' cloud infrastructure such as:
+[Amazon Web Services'](http://aws.amazon.com/) (AWS) cloud
+infrastructure such as:
 
-* When a service (such as `ec2` or `kinesis`) became available.
+* When a service (such as `ec2` or `kinesis`) became available
 * Which services are regionless (`iam`), operate in specific regions
   (`s3`) and which are dependent on availability zones within a region
-  (`ec2`).
+  (`ec2`)
 * What services are available in each region and when they became
-  available in those regions.
+  available in those regions
+* How many availability zones are in a region (and when there were
+  changes)
 
-The data is available in a set of CSV files:
+The dataset is most easily usable as a set of the following CSV files:
 
 * [`aws/services.csv`](aws/services.csv) contains a "main" list of
   services and whether they work in regions and if they are dependent
@@ -25,6 +28,11 @@ The data is available in a set of CSV files:
   particular region.
 * [`aws/zones.csv`](aws/zones.csv) contains information about each
   region and how many availability zones they contain (and when).
+
+**This is just a dataset repository. There is nothing functional (no
+code) in this repository.** You are free to use the data freely (as
+long as giving me the credit for the data) as defined by the CC BY 4.0
+license.
 
 ## Data format description ##
 
@@ -56,15 +64,15 @@ Here are samples as first few lines of each file:
 * Zone information is included only for zones that actually available
   for use as beta or GA **but not for limited access** (like China as
   of 2014-06-23). Note that `govcloud` is included because although it
-  has limited access (US public sector only) it *is* generally
-  available to all those that are allowed to use it.
+  has limited access (US public sector only) it is generally available
+  to all those that are allowed to use it.
 
 The names and format of these data files may change in the
 future. Consider the dataset as a beta release :-)
 
-There's also a [aws/updated.csv](updated.csv) file which contains just
-one column and one data row containing one date value being the date
-that this dataset is considered to be up-to-date to.
+There's also a [`aws/updated.csv`](updated.csv) file which contains
+just one column and one data row containing one date value being the
+date that this dataset is considered to be up-to-date to.
 
 ## Why and how? ##
 
@@ -87,7 +95,10 @@ source of information.
 If you spot an error in the data, please do one of:
 
 1. Edit the master version (the `.ods` file), run `make` to update CSV
-   versions of the files and submit a pull request for those changes.
+   versions of the files and submit a pull request for those
+   changes. (You'll need
+   [`unoconv`](https://github.com/dagwieers/unoconv) installed for
+   this to work.)
 2. Open an issue or send email or something similar with the updated
    information.
 
