@@ -1,12 +1,13 @@
-all: csv
+GENERATED = \
+	aws/services.csv aws/services-state.csv \
+	aws/services-regions.csv aws/zones.csv
 
-csv: aws/services.csv aws/services-state.csv aws/services-regions.csv \
-	aws/zones.csv
+all: $(GENERATED)
 
 %.csv: %.ods
 	unoconv -f csv $<
 
 clean:
-	-rm aws/*.csv
+	-rm $(GENERATED)
 
-.PHONY: all csv
+.PHONY: all clean
