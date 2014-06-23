@@ -1,4 +1,4 @@
-# AWS Cloud Service Metadata Repository #
+# AWS Cloud Service Metadata #
 
 Here you will find *metadata* in a *computer-friendly format* about
 [Amazon Web Services'](http://aws.amazon.com/) (AWS) cloud
