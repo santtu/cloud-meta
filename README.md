@@ -78,8 +78,9 @@ date that this dataset is considered to be up-to-date to.
 
 I needed this metadata for a research project (and couldn't find
 suitable data online), and it was quite a bit of effort (about 4-5
-days of work) I wanted to share the data in the hope this will save
-someone a lot of work and someone will find it useful.
+days of work) so I wanted to share the data in the hope this will save
+someone a lot of work and someone will find it useful. (I'd be
+delighted to hear if you do find it useful.)
 
 To collect the data I primarily went through
 [all news items from AWS](http://aws.amazon.com/new/). I used the
@@ -98,9 +99,10 @@ If you spot an error in the data, please do one of:
    versions of the files and submit a pull request for those
    changes. (You'll need
    [`unoconv`](https://github.com/dagwieers/unoconv) installed for
-   this to work.)
-2. Open an issue or send email or something similar with the updated
-   information.
+   this to work.) **or**
+2. Edit the csv in GitHub's editor and send it as a pull request **or**
+3. Open an issue, or send email, or get somehow in touch with the
+   updated information.
 
 All dates are in ISO 8601 format (YYYY-MM-DD). Many files contain a
 `accurate` column which should be `1` (TRUE value) if the date can be
