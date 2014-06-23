@@ -1,4 +1,4 @@
-# Cloud Service Metadata Repository #
+# AWS Cloud Service Metadata Repository #
 
 Here you will find *metadata* in a *computer-friendly format* about
 [Amazon Web Services'](http://aws.amazon.com/) (AWS) cloud
@@ -120,4 +120,10 @@ date** must be included in the dataset.
 
 ## License ##
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Cloud Metadata</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/santtu/cloud-meta" property="cc:attributionName" rel="cc:attributionURL">Santeri Paavolainen</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+<a rel="license"
+href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative
+Commons License" style="border-width:0"
+src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br
+/><span xmlns:dct="http://purl.org/dc/terms/"
+href="http://purl.org/dc/dcmitype/Dataset" property="dct:title"
+rel="dct:type">AWS Cloud Service Metadata</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/santtu/cloud-meta" property="cc:attributionName" rel="cc:attributionURL">Santeri Paavolainen</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
