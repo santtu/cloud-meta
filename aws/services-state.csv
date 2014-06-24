@@ -13,7 +13,6 @@ https://web.archive.org/web/20071216150414/http://www.amazon.com/b?ie=UTF8&node=
 2008-03-27,ec2,0,0,1,1,http://aws.amazon.com/about-aws/whats-new/2008/03/26/announcing-elastic-ip-addresses-and-availability-zones-for-amazon-ec2/ 
 2008-08-20,ebs,0,0,1,1,"http://aws.amazon.com/about-aws/whats-new/2008/08/20/amazon-elastic-block-store-now-available/
 https://web.archive.org/web/20081004222031/http://aws.amazon.com/ebs/ shows no beta, so assume ga at this time"
-2008-08-20,ebs,0,0,1,1,"http://aws.amazon.com/about-aws/whats-new/2008/08/20/amazon-elastic-block-store-now-available/ and https://web.archive.org/web/20081004222031/http://aws.amazon.com/ebs/ shows no beta, ec2 GA also shortly."
 2008-11-18,cloudfront,0,1,0,1,"http://aws.amazon.com/about-aws/whats-new/2008/11/18/whats-new-cloudfront/
 https://web.archive.org/web/20081201070709/http://aws.amazon.com/cloudfront/ (2008-12-01) lists it as beta, 2010-11-09 announced as ga, so this is beta."
 2008-12-01,simpledb,0,1,0,1,http://aws.amazon.com/about-aws/whats-new/2008/12/01/amazon-simpledb-now-in-unlimited-beta/ 
