@@ -243,6 +243,9 @@ https://web.archive.org/web/20130307224330/http://aws.amazon.com/about-aws/globa
 2013-02-15,cloudsearch,eu-west-1,0,"http://aws.amazon.com/about-aws/whats-new/2013/02/27/amazon-cloudsearch-now-available-in-three-additional-regions-worldwide/ mentions ”These new Regions join the US East (Northern Virginia) Region, and the recently added EU (Ireland) Region”, yet after the original annoouncement on 2012-11-04 no explicit announcement about eu-west-1 was made.
 https://forums.aws.amazon.com/thread.jspa?messageID=368820&#368820 (2012-08-01) explicitly states that cloudsearch is not yet available in EU, and https://forums.aws.amazon.com/thread.jspa?threadID=116918&tstart=400 (2013-02-15) mentions cloudsearch being used in EU region. Picking 2013-02-15 as the earliest confirmed availability for cloudsearch in EU region.
 "
+2013-02-18,opsworks,us-east-1,1,"https://aws.amazon.com/about-aws/whats-new/2013/02/18/announcing-aws-opsworks/
+https://web.archive.org/web/20140620185223/http://aws.amazon.com/opsworks/faqs/
+Note: Although opsworks can launch into any region, it itself is run from us-east-1. See the FAQ: ”You can configure OpsWorks instances to be launched in any AWS region except GovCloud. OpsWorks itself runs in US East (Northern Virginia) and provides access to all of your OpsWorks applications, no matter where they’re running.”"
 2013-02-27,cloudsearch,ap-southeast-1,1,http://aws.amazon.com/about-aws/whats-new/2013/02/27/amazon-cloudsearch-now-available-in-three-additional-regions-worldwide/ 
 2013-02-27,cloudsearch,us-west-1,1,http://aws.amazon.com/about-aws/whats-new/2013/02/27/amazon-cloudsearch-now-available-in-three-additional-regions-worldwide/ 
 2013-02-27,cloudsearch,us-west-2,1,http://aws.amazon.com/about-aws/whats-new/2013/02/27/amazon-cloudsearch-now-available-in-three-additional-regions-worldwide/ 

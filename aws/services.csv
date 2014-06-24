@@ -26,7 +26,8 @@ import-export,AWS Import/Export,1,0,http://aws.amazon.com/importexport/
 kinesis,Amazon Kinesis,1,0,http://aws.amazon.com/kinesis/
 management-console,AWS Management Console,0,0,http://aws.amazon.com/console/
 mturk,Amazon Mechanical Turk,0,0,http://aws.amazon.com/mturk/
-opsworks,AWS OpsWorks,1,0,http://aws.amazon.com/opsworks/
+opsworks,AWS OpsWorks,1,0,"http://aws.amazon.com/opsworks/
+Note: Although opsworks can launch into any region, the service itself runs out of a particular region."
 rds,Amazon Relational Database Service (Amazon RDS),1,1,http://aws.amazon.com/rds/
 redshift,Amazon Redshift,1,0,http://aws.amazon.com/redshift/
 route53,Amazon Route 53,0,0,"http://aws.amazon.com/route53/
