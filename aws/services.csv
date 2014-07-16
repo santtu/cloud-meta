@@ -1,5 +1,6 @@
 service,name,hasregions,haszones,description
 alexa,Alexa Web Information Service,0,0,http://aws.amazon.com/awis/
+analytics,Amazon Mobile Analytics,1,0,http://aws.amazon.com/mobileanalytics/
 appstream,Amazon AppStream,1,0,http://aws.amazon.com/appstream/
 autoscaling,Auto Scaling,1,0,http://aws.amazon.com/autoscaling/
 cloudformation,AWS CloudFormation,1,0,http://aws.amazon.com/cloudformation/
@@ -9,6 +10,7 @@ cloudhsm,AWS CloudHSM,1,0,http://aws.amazon.com/cloudhsm/
 cloudsearch,Amazon CloudSearch,1,0,http://aws.amazon.com/cloudsearch/
 cloudtrail,AWS CloudTrail,1,0,http://aws.amazon.com/cloudtrail/
 cloudwatch,Amazon CloudWatch,1,0,http://aws.amazon.com/cloudwatch/
+cognito,Amazon Cognito,1,0,https://aws.amazon.com/cognito/
 datapipeline,AWS Data Pipeline,1,0,http://aws.amazon.com/datapipeline/
 directconnect,AWS Direct Connect,1,0,http://aws.amazon.com/directconnect/
 dynamodb,Amazon DynamoDB,1,0,http://aws.amazon.com/dynamodb/
@@ -41,3 +43,4 @@ storagegateway,AWS Storage Gateway,1,0,http://aws.amazon.com/storagegateway/
 swf,Amazon Simple Workflow (SWF),1,0,http://aws.amazon.com/swf/
 vpc,Amazon Virtual Private Cloud (Amazon VPC),1,1,http://aws.amazon.com/vpc/
 workspaces,Amazon WorkSpaces,1,0,http://aws.amazon.com/workspaces/
+zocalo,Amazon Zocalo,1,0,http://aws.amazon.com/zocalo/details/
